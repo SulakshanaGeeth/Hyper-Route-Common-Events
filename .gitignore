@@ -1,0 +1,38 @@
+# Target directory (Maven build outputs)
+target/
+*.jar
+*.war
+*.ear
+*.nar
+
+# IDE specific files
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+**/nbproject/private/
+**/nbproject/generated-files-summary.xml
+**/nbbuild/
+**/dist/
+**/nbdist/
+.nb-gradle/
+
+# Log files and crash dumps
+*.log
+log/
+hs_err_pid*
+
+# OS specific files
+.DS_Store
+Thumbs.db
